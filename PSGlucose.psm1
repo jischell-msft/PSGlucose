@@ -15,7 +15,7 @@ foreach( $entry in $privateFunctions ){
         Write-Verbose "Loaded `'$($entry.baseName)`' via dot sourcing."
     }
     else {
-        Throw "Could not load `'$($entry.baseName)`'"
+        Write-Warning "Could not load `'$($entry.baseName)`'"
     }
 }
 
@@ -30,7 +30,7 @@ foreach( $entry in $publicFunctions ){
         Write-Verbose "Loaded `'$($entry.baseName)`' via dot sourcing."
     }
     else {
-        Throw "Could not load `'$($entry.baseName)`'"
+        Write-Warning "Could not load `'$($entry.baseName)`'"
     }
     
     $entryContent = Get-Content -raw -path $entry.fullName

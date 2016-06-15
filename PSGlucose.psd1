@@ -9,13 +9,16 @@ Author = 'Jim Schell'
 
 Copyright = 'The MIT License (MIT), 2016'
 
-PowerShellVersion = '3'
+PowerShellVersion = '3.0'
 
-PowerShellHostVersion = '3'
+PowerShellHostVersion = '3.0'
 
 Description = ''
 
-FunctionsToExport = @()
+FunctionsToExport = @(
+    'Test-Port'
+    'Test-PsRemoting'
+)
 
 PrivateData = @{
 

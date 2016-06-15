@@ -1,0 +1,13 @@
+﻿### Version 0.1.0
+Date 
+
+New features:
+* Feature 1
+* Feature 2
+
+New functions:
+* New-FlibFlob
+* Test-FlibFlob
+
+Bug fixes:
+* Searching for llamas no longer waits for splines to finish reticulating
